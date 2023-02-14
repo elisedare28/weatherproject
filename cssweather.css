@@ -1,0 +1,139 @@
+
+body 
+{
+height: 95%;
+width: 100%;
+
+background-color: #a89cb9;
+    
+}
+.box
+{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#search 
+{ margin: 2%;
+    padding: 1rem;
+   font-size: large;
+   text-decoration-color: black;
+  background-color: rgb(219, 208, 208);
+    border-radius: 50px;
+    border: 2px solid purple;
+    width:500px;
+    height:50px;
+    
+}
+#submit
+{
+
+  background: #5f5fb8;
+  color: #f7f7f7;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 18px;
+  border-radius: 25px;
+  transition: background-color 1s;
+}
+#submit:hover {background-color: rgb(109, 199, 44);}
+#delhi
+{
+    font-size: 60;
+
+    border-radius: 10px;
+    margin: 2%;
+    width: 600px;
+    height:100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(delhi.jpg);
+    opacity: 0.6;
+background-position: center;
+    cursor: pointer;
+    transition: width 1s, height 1s, font 1s;
+  
+
+}
+#delhi:hover {width:650px; height:150px; font-size: 50;}  
+#london
+{
+    border-radius: 10px;
+    margin: 2%;
+    width: 600px;
+    height:100px;
+    font-size: 60;
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(london.jpg);
+    background-position: 10% 70%;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: width 1s, height 1s,font 1s;
+  
+
+}
+#london:hover {width:650px; height:150px; font-size: 50;}  
+#dc
+{    font-size: 50;
+
+    border-radius: 10px;
+    margin: 2%;
+    width: 600px;
+    height:100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-image: url(washington.jpg);  
+opacity: 0.6;
+background-position: bottom;
+  cursor: pointer;
+    transition: width 1s, height 1s, font-size 1s;
+  
+
+}
+#dc:hover {width:650px; height:150px; font-size: 50;}  
+
+.new
+{   display: flex;
+    flex-direction: column;
+    float: right,top;
+    width: 50%;
+    height: 50%;
+text-decoration-color: black;
+text-align: center;
+background-color: cadetblue;
+font-style: bold;
+}
+#city
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: x-large;
+background-color: coral;
+}
+#temperature
+{   
+    font-weight: bolder;
+    font-size: 30;
+    text-decoration-color: black;
+    text-align: center;
+}
+#description
+{
+    font-weight: bolder;
+    font-size: 30;
+    text-decoration-color: black;
+    text-align: center;}
+.days
+{
+    display: flex;
+    flex-direction: column;
+    float: bottom;
+    width: 50%;
+    height: 50%;
+    font-weight: bolder;
+    font-size: x-large;
+    text-decoration-color: black;
+    text-align: center;
+    background-color: bisque;
+
+    
+}
